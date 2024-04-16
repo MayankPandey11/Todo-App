@@ -1,0 +1,47 @@
+body{
+      font-family: 'Times New Roman', Times, serif;
+      background-color: bisque;
+      height: 100vh;
+      width: 100vh;
+}
+h1{
+    text-decoration: double underline ;
+    color: brown;
+}
+
+.write{
+    background-color: bisque;
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 0.5rem;
+}
+
+:placeholder-shown::placeholder {
+    color: #8B4513;
+}
+
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff; 
+  background-color: #8B4513; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+  background-color: #A0522D; 
+}
+
+li{
+    color: #8B4513;
+    font-size: large;
+    font-weight: 700;
+}
